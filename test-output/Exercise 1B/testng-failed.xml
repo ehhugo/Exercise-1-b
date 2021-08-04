@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Exercise 1B]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Salesforce - Iteration Between tabs(failed)">
+    <classes>
+      <class name="cucumberOptions.testRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="5"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberOptions.testRunner -->
+    </classes>
+  </test> <!-- Salesforce - Iteration Between tabs(failed) -->
+</suite> <!-- Failed suite [Exercise 1B] -->

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-03T20:41:00 UYT" name="Exercise 1B" finished-at="2021-08-03T20:45:42 UYT" duration-ms="282596">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-03T20:41:00 UYT" name="Salesforce - Iteration Between tabs" finished-at="2021-08-03T20:45:42 UYT" duration-ms="282596">
+      <class name="cucumberOptions.testRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:41:00 UYT" name="setUpClass" finished-at="2021-08-03T20:41:00 UYT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:41:00 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:41:58 UYT" duration-ms="58182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""1"- Iteration between tabs in the Salesforce App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:41:58 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:42:42 UYT" duration-ms="44186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""2"- Account Record creation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:42:42 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:43:05 UYT" duration-ms="22611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""3" - Account Record creation without filling required fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:43:05 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:43:27 UYT" duration-ms="22313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""4" - Contact Record creation in a New Tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:43:27 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:43:52 UYT" duration-ms="24871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""5" - Account Record Modification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:43:52 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:44:13 UYT" duration-ms="20858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""6" - Account Record Modification filling the Employee field with a wrong Value"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:44:13 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:44:34 UYT" duration-ms="21093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""7" - Accounts creation using cucumber data provider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:44:34 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:45:02 UYT" duration-ms="27368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""7" - Accounts creation using cucumber data provider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:45:02 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:45:21 UYT" duration-ms="19885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""7" - Accounts creation using cucumber data provider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:45:21 UYT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-03T20:45:42 UYT" duration-ms="20896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""7" - Accounts creation using cucumber data provider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Exercise "1"b]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.testRunner@209da20d]" started-at="2021-08-03T20:45:42 UYT" name="tearDownClass" finished-at="2021-08-03T20:45:42 UYT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.testRunner -->
+    </test> <!-- Salesforce - Iteration Between tabs -->
+  </suite> <!-- Exercise 1B -->
+</testng-results>
